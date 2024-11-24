@@ -5,8 +5,9 @@ public class Customer {
     private String name;
     private List<String> products;
 
-    // Constructor to initialize the customer with a name and a list of products
-    public Customer(String name, List<String> products){
+
+    // Constructs a customer with a name and a list of products
+    public Customer(String name, List<String> products) {
         this.name = name;
         this.products = products;
     }
